@@ -13,6 +13,7 @@ function timeRequiredToBuy(tickets, k) {
             }
         }
     }
+    
     return time;
 }
 

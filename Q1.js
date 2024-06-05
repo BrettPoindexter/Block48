@@ -10,7 +10,6 @@ function isValid(s) {
         const char = s[i];
 
         if (char in pairs) {
-
             stack.push(char);
         } else {
             if (stack.length === 0 || pairs[stack.pop()] !== char) {

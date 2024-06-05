@@ -2,7 +2,7 @@ function deckRevealedIncreasing(deck) {
     deck.sort((a, b) => b - a);
     
     let result = [];
-    
+
     for (let card of deck) {
         if (result.length > 0) {
             result.unshift(result.pop());
